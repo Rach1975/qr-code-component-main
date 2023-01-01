@@ -33,3 +33,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Author
 
 - Frontend Mentor - [@Rach1975](https://www.frontendmentor.io/profile/Rach1975)
+
+## Acknowledgement
+
+Thanks to [Melvin Aguilar 🧑🏻‍💻](https://www.frontendmentor.io/profile/MelvinAguilar) for helping me out in using landmarks and sr-only class to improve accessibility! That article they linked helped me figure out how to use px, em, rem!

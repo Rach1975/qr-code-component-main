@@ -69,10 +69,10 @@
 body {
     background-color: var(--light-gray);
     display: grid;
-    padding: 2rem;
+    padding: 30px;
     place-content: center;
     font-family: 'Outfit', sans-serif;
-    font-size: 15px;
+    font-size: 0.9rem;
 }
 
 .card {
@@ -83,9 +83,18 @@ body {
     width: 300px;
 }
 
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
 
 .code {
-    padding: 1rem;
+    padding: 15px;
     border-radius: 30px;
 }
 
@@ -93,8 +102,8 @@ body {
     background-color: var(--white);
     display: grid;
     align-content: center;
-    padding: 1rem 2rem 2rem 2rem;
-    gap: 10px;
+    padding: 15px 30px 30px 30px;
+    gap: 0.8rem;
 }
 
 
@@ -102,15 +111,15 @@ body {
 .p1 {
     color: var(--dark-blue);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1rem;
     text-align: center;
     font-size: 1.2rem;
     line-height: 1.5rem;
-    padding: 0 2rem;
+    padding: 0 30px;
 }
 
 .p2 {
     color: var(--grayish-blue);
     text-align: center;
-    padding: 1rem 2rem 2rem 2rem;
+    padding: 15px 30px 40px 30px;
 }
