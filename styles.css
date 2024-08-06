@@ -1,5 +1,5 @@
-/* Move from html */
-.attribution { font-size: 11px; text-align: center; }
+/* Attribution */
+.attribution { font-size: 0.6875rem; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 /* CSS reset */
@@ -81,69 +81,68 @@ textarea:not([rows]) {
 
 /* Customize */
 * {
-    box-sizing: border-box;
-    --slate-900: rgb(31,49,79);
-    --slate-500: rgb(104,119,141);
-    --slate-300: rgb(213,225,239);
-    --white: rgb(255,255,255);
-    --spacing-500: 40px;
-    --spacing-300: 24px;
-    --spacing-200: 16px;
-    --radius: 25px;
-    --text-width: 300px;
+  box-sizing: border-box;
+  --slate-900: rgb(31,49,79);
+  --slate-500: rgb(104,119,141);
+  --slate-300: rgb(213,225,239);
+  --white: rgb(255,255,255);
+  --spacing-500: 40px;
+  --spacing-300: 24px;
+  --spacing-200: 16px;
+  --radius: 25px;
 }
 
 body {
-    background-color: var(--slate-300);
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    font-size: 15px;
+  background-color: var(--slate-300);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-size: 0.9375rem;
 }
-
 
 
 .frame-card {
-    max-width: 385px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: var(--white);
-    border-radius: var(--radius);
-    padding: 10px;
-    margin-bottom: -20px;
-    gap: -10px;
+  max-width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--white);
+  border-radius: var(--radius);
+  margin-bottom: -20px;
+  gap: -10px;
 }
 
 .qr-card {
-    width: 100%;
-    border-radius: var(--radius);
-    padding: 11px;
+  width: 100%;
+  border-radius: var(--radius);
+  padding: 15px 15px 5px 15px;
 }
 
 
 .bold-text {
-    font-size: 22px;
-    line-height: 120%;
-    letter-spacing: 0px;
-    font-weight: bold;
-    color: var(--slate-900);
-    text-align: center;
-    width: var(--text-width);
+  font-size: 1.125rem;
+  line-height: 120%;
+  letter-spacing: 0px;
+  font-weight: bold;
+  color: var(--slate-900);
+  text-align: center;
+  width: 280px;
+  padding: 15px;
+
 }
 
 .slim-text {
-    font-size: 15px;
-    line-height: 140%;
-    letter-spacing: 0.2px;
-    color: var(--slate-500);
-    text-align: center;
-    padding-bottom: 45px;
-    width: var(--text-width);
+  font-size: 0.75rem;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: var(--slate-500);
+  text-align: center;
+  padding-bottom: 45px;
+  width: 230px;
 }

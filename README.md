@@ -12,6 +12,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 - [Author](#author)
+- [Acknowledgement](#acknowledgement)
 
 
 ## Overview
@@ -49,3 +50,5 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - Frontend Mentor - [@Rach1975](https://www.frontendmentor.io/profile/Rach1975)
 
+## Acknowledgement
+- Thank you [@Boris](https://www.frontendmentor.io/profile/mkboris) for feedback on responsiveness,  css reset and rem/px font-size problem!
